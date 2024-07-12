@@ -121,6 +121,8 @@ function outputImage = colorchanger(a, col_n, row_n, x) % define function colorc
         otherwise % if none of the case matches, return an error
             disp('Incorrect selection, please choose from the menu');
     end
+
+    // Test
     
     outputImage = copy; % assign the outputImage matrix to the copy (modified) image matrix and return
 end
